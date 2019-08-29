@@ -1,0 +1,14 @@
+Create the following gameobjects before applying a script
+	- 3D object plain	
+	- sphere
+		-apply rigidbody on the sphere
+	- point light
+		- change the light position where you can see its light reflection on the sphere object
+
+Machine Problem:
+
+1. Create a script that enables the light to turn on and off when a space input key is triggered(press)
+	- Note , Light component should be disabled once the script was applied.
+
+2. Modify the code above, instead a user defined function is called in the update() to trigger the event.		
+https://docs.unity3d.com/ScriptReference/Input.GetKey.html
